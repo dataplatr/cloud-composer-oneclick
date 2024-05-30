@@ -133,7 +133,7 @@ def main(args: typing.Sequence[str]) -> int:
             config["projectId"],
             config["location"],
             config["composerEnvName"],
-            config["serciceAccountName"]
+            config["serviceAccountName"]
         )
         print_formatted(
                     (f"{' '.join(DF_TITLE.split()[2:])} is ready for deployment.\n\n"
