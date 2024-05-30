@@ -220,14 +220,14 @@ def configure(in_cloud_shell: bool,
     composer_env_name = composer_env_name.lower()
     config["composerEnvName"] = composer_env_name
 
-    sercice_account_name = get_value(
+    service_account_name = get_value(
             session,
-            "Sercice Account Name",
-            default_value=sercice_account_name.lower(),
+            "service Account Name",
+            default_value=service_account_name.lower(),
             description="Specify Service Account Name.",
         )
-    sercice_account_name = sercice_account_name.lower() 
-    config["serciceAccountName"] = sercice_account_name
+    service_account_name = service_account_name.lower() 
+    config["serviceAccountName"] = service_account_name
     
     if not config:
         print_formatted(
