@@ -102,7 +102,7 @@ def main():
     composer_location=config_dict.get("location")
     project_number = config_dict.get("projectNumber")
     composer_env_name = config_dict.get("composerEnvName")
-    custom_service_account = config_dict.get("serciceAccountName")
+    custom_service_account = config_dict.get("serviceAccountName")
 
     logging.info(
         "\n---------------------------------------\n"
@@ -123,7 +123,7 @@ def main():
         "projectNumber": project_number,
         "location" : composer_location,
         "composerEnvName" : composer_env_name,
-        "serciceAccountName" : custom_service_account
+        "serviceAccountName" : custom_service_account
     }
 
     # Generate Python file from template
