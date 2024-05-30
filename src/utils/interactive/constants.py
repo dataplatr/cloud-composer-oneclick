@@ -6,5 +6,5 @@ CONFIG_MESSAGE = (
     "Project : <b>%s</b>.\n"
     "Location: <b>%s</b>.\n"
     "Cloud Composer:<b>%s</b>.\n"
-    "Sevice Account:<b>%s</b>.\n"
+    "Service Account:<b>%s</b>.\n"
 )
