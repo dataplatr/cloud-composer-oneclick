@@ -157,8 +157,8 @@ def configure(in_cloud_shell: bool,
     composerEnvName = config.get("composerEnvName", "")
     config["composerEnvName"] = composerEnvName
 
-    sercice_account_name = config.get("serciceAccountName","")
-    config["serciceAccountName"] = sercice_account_name
+    service_account_name = config.get("serviceAccountName","")
+    config["serviceAccountName"] = service_account_name
 
     if project == "":
         project = None
