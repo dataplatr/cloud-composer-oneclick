@@ -1,0 +1,8 @@
+{
+    "CreateComposer": true,
+    "location": "",
+    "projectId": "",
+    "composerEnvName": "Custom-cloudComposer",
+    "projectNumber": "",
+    "serviceAccountName":"Custom-Service-Account"
+}

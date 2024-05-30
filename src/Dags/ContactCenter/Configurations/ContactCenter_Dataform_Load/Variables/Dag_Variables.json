@@ -1,0 +1,17 @@
+{
+    "Dev": {
+        "BQ_Region": "US",
+        "DF_Tags": "Touch-factQueueInterval",
+        "Schedule": "0 8 * * *"
+    },
+    "Qa": {
+        "BQ_Region": "US",
+        "DF_Tags": "Touch-factQueueInterval",
+        "Schedule": "0 8 * * *"
+    },
+    "Prod": {
+        "BQ_Region": "US",
+        "DF_Tags": "Touch-factQueueInterval",
+        "Schedule": "0 8 * * *"
+    }
+}
