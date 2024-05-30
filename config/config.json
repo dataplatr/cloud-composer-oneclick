@@ -1,0 +1,8 @@
+{
+    "CreateComposer": true,
+    "location": "us-central1",
+    "projectId": "dataplatr-sandbox",
+    "composerEnvName": "dw-dataplatr--airflow",
+    "projectNumber": "313726293085",
+    "serciceAccountName": "custom-service-account"
+}
