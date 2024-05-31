@@ -9,9 +9,9 @@
 |---|---|---|
 | projectId | - |  Name of the Google Cloud project |
 | CreateComposer | true | Execute the deployment for Cloud Composer. |
-| location | “us-central1” | The region where the environment is located. |
+| location | us-central1 | The region where the environment is located. |
 | serciceAccountName | custom-service-account | User-managed service account for Cloud Composer environments.
-| composerEnvName | - | Name of the cloud composer environment. |
+| composerEnvName | dev-composer | Name of the cloud composer environment. |
 
 
 
