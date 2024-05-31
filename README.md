@@ -7,7 +7,7 @@
 
 | Parameter | Default Value | Description |
 |---|---|---|
-| projectId | - | Project where the source dataset is and the build will run. |
+| projectId | - |  Name of the Google Cloud project |
 | CreateComposer | true | Execute the deployment for Cloud Composer. |
 | location | “us-central1” | The region where the environment is located. |
 | serciceAccountName | - | User-managed service account for Cloud Composer environments. |
