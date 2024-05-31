@@ -23,7 +23,7 @@ terraform plan -var-file=variables.tfvars
 echo "Please review the Terraform plan above."
 
 # Apply Terraform changes (manual confirmation)
-# terraform apply -var-file=variables.tfvars
+terraform apply -var-file=variables.tfvars
 echo -e "\n✅ Cloud Composer environment creation successful."
 
 # Extract configuration values from JSON
