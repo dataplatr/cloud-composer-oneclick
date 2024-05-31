@@ -1,7 +1,5 @@
 ## Cloud Composer Implementation
 
-The Data Foundation for [Google Cloud Cortex Framework](https://cloud.google.com/solutions/cortex) is a set of analytical artifacts, that can be automatically deployed together with reference architectures.
-
 This will guide you through Cloud Composer configuration and deployment.
 
 Click the **Start** button to move to the next step.
