@@ -20,7 +20,7 @@ bash 1_click.sh --project "<walkthrough-project-id/>"
 
 *__Looking to learn how deployment works?__*
 
-*Follow [deployment instructions in README](https://github.com/GoogleCloudPlatform/cortex-data-foundation/blob/main/README.md)*
+*Follow [deployment instructions in README](https://github.com/dataplatr/cloud-composer-oneclick/blob/main/README.md)*
 
 <walkthrough-footnote>The 1-Click deployment would create composer and service account. </walkthrough-footnote>
 
