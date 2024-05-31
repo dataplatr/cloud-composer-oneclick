@@ -10,8 +10,7 @@
 | projectId | - |  Name of the Google Cloud project |
 | CreateComposer | true | Execute the deployment for Cloud Composer. |
 | location | “us-central1” | The region where the environment is located. |
-| serciceAccountName | - | User-managed service account for Cloud Composer environments. |
-| projectNumber | "us-central1" | Location where dataform Repository will be created. |
+| serciceAccountName | custom-service-account | User-managed service account for Cloud Composer environments.
 | composerEnvName | - | Name of the cloud composer environment. |
 
 
