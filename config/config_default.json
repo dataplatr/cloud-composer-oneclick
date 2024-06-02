@@ -1,8 +1,0 @@
-{
-    "CreateComposer": true,
-    "location": "us-central1",
-    "projectId": "",
-    "composerEnvName": "dev-composer",
-    "projectNumber": "",
-    "serviceAccountName":"custom-service-account"
-}
