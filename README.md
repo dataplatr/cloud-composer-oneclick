@@ -1,6 +1,7 @@
 ## **Automated Cloud Composer Environment Deployment**
 
 Click the button below to create a Cloud Composer and a service account in just a few clicks.
+
 [![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://shell.cloud.google.com/cloudshell/?terminal=true&show=terminal&cloudshell_git_repo=https%3A%2F%2Fgithub.com/dataplatr/cloud-composer-oneclick&cloudshell_tutorial=docs%2Ftutorial.md)
 
 ### Configuration
