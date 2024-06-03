@@ -2,8 +2,8 @@
     "CreateComposer": true,
     "location": "",
     "projectId": "",
-    "composerEnvName": "Custom-cloudComposer",
+    "composerEnvName": "dev-cloudcomposer",
     "projectNumber": "",
-    "serviceAccountName":"Custom-Service-Account",
+    "serviceAccountName":"custom-service-account",
     "composer_size": "small"
 }
