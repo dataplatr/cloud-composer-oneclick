@@ -46,6 +46,15 @@ resource "google_composer_environment" "composer_env" {
 
     software_config {
       image_version = "composer-2-airflow-2"
+      pypi_packages = {
+        "oracledb": "",
+        "apache-airflow-providers-oracle": "",
+        "cloud-sql-python-connector": "==1.3.0",
+        "apache-airflow-providers-salesforce": "",
+        "pymysql": "==1.1.0",
+        "cx_Oracle":"",
+        "urllib3":""
+      }
     }
 
     node_config {
