@@ -15,7 +15,7 @@ resource "google_project_service" "composer_api" {
 resource "google_service_account" "custom_service_account" {
   provider = google
   account_id   = var.sa_name
-  display_name = "Example Custom Service Account"
+  display_name = "Custom Service Account"
 }
 
 resource "google_project_iam_member" "custom_service_account" {
@@ -52,7 +52,7 @@ resource "google_composer_environment" "composer_env" {
         "cloud-sql-python-connector": "==1.3.0",
         "apache-airflow-providers-salesforce": "",
         "pymysql": "==1.1.0",
-        "cx_Oracle":"",
+        "cx_oracle":"",
         "urllib3":""
       }
     }
