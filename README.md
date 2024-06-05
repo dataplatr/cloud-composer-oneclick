@@ -23,3 +23,11 @@ select one of three environment presets based on the following estimates:
 1. Total number of DAGs that you plan to deploy in the environment
 2. Maximum number of concurrent DAG runs
 3. Maximum number of concurrent tasks
+
+Your environment's performance depends on the implementation of specific DAGs that you run in your environment. The following table lists estimates that are based on the average resource consumption. If you expect your DAGs to consume more resources, adjust the estimates accordingly.
+
+| Recommended preset | Total DAGs | Max concurrent DAG runs | Max concurrent tasks
+|---|---|---|---|
+| Small | 50 | 15 | 18 |
+| Medium | 250 | 60 | 100 |
+| Large | 1000 | 250 | 400 |
