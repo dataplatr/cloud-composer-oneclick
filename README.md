@@ -20,6 +20,6 @@ Note : For composerEnvName, name must start with a lowercase letter followed by 
 ### Choosing Environment Size
 select one of three environment presets based on the following estimates:
 
-Total number of DAGs that you plan to deploy in the environment
-Maximum number of concurrent DAG runs
-Maximum number of concurrent tasks
+1. Total number of DAGs that you plan to deploy in the environment
+2. Maximum number of concurrent DAG runs
+3. Maximum number of concurrent tasks
