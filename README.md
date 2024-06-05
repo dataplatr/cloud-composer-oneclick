@@ -18,7 +18,7 @@ Click the button below to create a Cloud Composer and a service account in just 
 Note : For composerEnvName, name must start with a lowercase letter followed by up to 62 lowercase letters, numbers, or hyphens, and cannot end with a hyphen. The environment name is used to create subcomponents for the environment, so you must provide a name that is also valid as a Cloud Storage bucket name. See [Bucket naming guidelines](https://cloud.google.com/storage/docs/buckets#naming) for a list of restrictions.
 
 ### Choosing Environment Size
-select one of three environment presets based on the following estimates:
+Select one of three environment presets based on the following estimates:
 
 1. Total number of DAGs that you plan to deploy in the environment
 2. Maximum number of concurrent DAG runs
@@ -31,3 +31,5 @@ Your environment's performance depends on the implementation of specific DAGs th
 | Small | 50 | 15 | 18 |
 | Medium | 250 | 60 | 100 |
 | Large | 1000 | 250 | 400 |
+
+For a guide about selecting optimal scale and performance parameters for your environment, see [Optimize environment performance and costs](https://cloud.google.com/composer/docs/composer-2/optimize-environments).
