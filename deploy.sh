@@ -7,7 +7,7 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-# Initialize Terraform (optional)
+# Initialize Terraform
 terraform init -backend=true
 
 # Check if the Terraform initialization was successful
