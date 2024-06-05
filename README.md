@@ -32,4 +32,4 @@ Your environment's performance depends on the implementation of specific DAGs th
 | Medium | 250 | 60 | 100 |
 | Large | 1000 | 250 | 400 |
 
-For a guide about selecting optimal scale and performance parameters for your environment, see [Optimize environment performance and costs](https://cloud.google.com/composer/docs/composer-2/optimize-environments).
+For a complete guide about selecting optimal scale and performance parameters for your environment, see [Optimize environment performance and costs](https://cloud.google.com/composer/docs/composer-2/optimize-environments).
