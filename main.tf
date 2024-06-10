@@ -16,6 +16,7 @@ resource "google_service_account" "custom_service_account" {
   provider = google
   account_id   = var.sa_name
   display_name = "Custom Service Account"
+  create_ignore_already_exists = true
 }
 
 resource "google_project_iam_member" "custom_service_account" {
