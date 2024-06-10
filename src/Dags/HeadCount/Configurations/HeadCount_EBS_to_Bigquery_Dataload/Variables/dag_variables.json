@@ -1,0 +1,39 @@
+{
+    "Dev": {
+        "GCS_Stage_Bucket": "gcs-sandbox-ods-stage",
+        "GCS_Schema_Bucket": "gcs-sandbox-ods-stage-schema",
+        "Schema_Folder": "OracleEBS_HC",
+        "Archive_Folder": "OracleEBS_HC/backup",
+        "Input_Data": "OracleEBS_HC/inputdata",
+        "BQ_Region": "US",
+        "Schedule": "0 8 * * *",
+        "TableName": "OracleEBS",
+        "SystemId": "2578",
+        "ParentSystemId": "76",
+		"Full_Load_Flag": "N"
+    },
+    "Qa": {
+        "GCS_Stage_Bucket": "gcs-sandbox-ods-stage",
+        "GCS_Schema_Bucket": "gcs-sandbox-ods-stage-schema",
+        "Schema_Folder": "OracleEBS_HC",
+        "Archive_Folder": "OracleEBS_HC/backup",
+        "Input_Data": "OracleEBS_HC/inputdata",
+        "BQ_Region": "US",
+        "Schedule": "0 8 * * *",
+        "TableName": "OracleEBS",
+        "ParentSystemId": "76",
+		"Full_Load_Flag": "N"
+    },
+    "Prod": {
+        "GCS_Stage_Bucket": "gcs-sandbox-ods-stage",
+        "GCS_Schema_Bucket": "gcs-sandbox-ods-stage-schema",
+        "Schema_Folder": "OracleEBS_HC",
+        "Archive_Folder": "OracleEBS_HC/backup",
+        "Input_Data": "OracleEBS_HC/inputdata",
+        "BQ_Region": "US",
+        "Schedule": "0 8 * * *",
+        "TableName": "OracleEBS",
+        "ParentSystemId": "76",
+		"Full_Load_Flag": "N"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "Dev": {
+        "GCS_Stage_Bucket": "gcs-sandbox-ods-stage",
+        "GCS_Schema_Bucket": "gcs-sandbox-ods-stage-schema",
+        "Schema_Folder": "OracleEBS",
+        "Archive_Folder": "OracleEBS/backup",
+        "Input_Data": "OracleEBS/inputdata",
+        "BQ_Region": "US",
+        "DF_Tags": "Finance-OracleDetail",
+        "Schedule": "0 */4 * * *",
+        "TableName": "OracleEBS",
+        "SystemId": "2578",
+        "ParentSystemId": "76",
+		"Full_Load_Flag": "Y",
+		"chunk_size":20000
+    },
+    "Qa": {
+        "GCS_Stage_Bucket": "gcs-sandbox-ods-stage",
+        "GCS_Schema_Bucket": "gcs-sandbox-ods-stage-schema",
+        "Schema_Folder": "OracleEBS",
+        "Archive_Folder": "OracleEBS/backup",
+        "Input_Data": "OracleEBS/inputdata",
+        "BQ_Region": "US",
+        "DF_Tags": "Finance-OracleDetail",
+        "Schedule": "0 */4 * * *",
+        "TableName": "OracleEBS",
+        "ParentSystemId": "76",
+		"Full_Load_Flag": "N"
+    },
+    "Prod": {
+        "GCS_Stage_Bucket": "gcs-sandbox-ods-stage",
+        "GCS_Schema_Bucket": "gcs-sandbox-ods-stage-schema",
+        "Schema_Folder": "OracleEBS",
+        "Archive_Folder": "OracleEBS/backup",
+        "Input_Data": "OracleEBS/inputdata",
+        "BQ_Region": "US",
+        "DF_Tags": "Finance-OracleDetail",
+        "Schedule": "0 */4 * * *",
+        "TableName": "OracleEBS",
+        "ParentSystemId": "76",
+		"Full_Load_Flag": "N"
+    }
+}

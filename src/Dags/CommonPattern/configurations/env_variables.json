@@ -1,0 +1,17 @@
+{
+    "Dev": {
+        "RUN_AUDIT_INSTANCE_CONNECTION": "dataplatr-sandbox:us-central1:dataplatr-d-csq-edwlog2",
+        "RUN_AUDIT_DB_USER": "sa-composer-environment",
+        "RUN_AUDIT_DB_NAME": "EdwLog"
+    },
+    "Qa": {
+        "RUN_AUDIT_INSTANCE_CONNECTION": "dataplatr-sandbox:us-central1:dataplatr-q-csq-edwlog",
+        "RUN_AUDIT_DB_USER": "sa-composer-environment",
+        "RUN_AUDIT_DB_NAME": "EdwLog"
+    },
+    "Prod": {
+        "RUN_AUDIT_INSTANCE_CONNECTION": "dataplatr-sandbox:us-central1:dataplatr-p-csq-edwlog",
+        "RUN_AUDIT_DB_USER": "sa-composer-environment",
+        "RUN_AUDIT_DB_NAME": "EdwLog"
+    }
+}
