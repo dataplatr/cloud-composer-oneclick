@@ -34,6 +34,29 @@ resource "google_service_account_iam_member" "custom_service_account" {
   member = "serviceAccount:service-${var.project_number}@cloudcomposer-accounts.iam.gserviceaccount.com"
 }
 
+resource "google_project_iam_member" "editor" {
+  project = var.project_id
+  role    = "roles/editor"
+  member  = "serviceAccount:${google_service_account.custom_service_account.email}"
+  
+resource "google_project_iam_member" "storage_admin" {
+  project = var.project_id
+  role    = "roles/storage.admin"
+  member  = "serviceAccount:${google_service_account.custom_service_account.email}"
+}
+
+resource "google_project_iam_member" "bigquery_admin" {
+  project = var.project_id
+  role    = "roles/bigquery.admin"
+  member  = "serviceAccount:${google_service_account.custom_service_account.email}"
+}
+
+resource "google_project_iam_member" "dataproc_admin" {
+  project = var.project_id
+  role    = "roles/dataproc.admin"
+  member  = "serviceAccount:${google_service_account.custom_service_account.email}"
+}
+
 resource "google_composer_environment" "composer_env" {
   name   = var.composer_env_name
   region = var.region
