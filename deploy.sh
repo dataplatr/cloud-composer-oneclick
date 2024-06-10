@@ -66,7 +66,7 @@ fi
 echo "Composer Bucket Name: $bucket_name"
 
 # Copy Oracle DAG files and JSON schema to respective buckets
-gsutil -m cp -r src/Dags/* gs://$bucket_name/dags
+gsutil -m cp -r src/Dags/* gs://$bucket_name/dags/Dev
 
 # Check if the gsutil command was successful
 if [ $? -ne 0 ]; then
