@@ -38,6 +38,7 @@ resource "google_project_iam_member" "editor" {
   project = var.project_id
   role    = "roles/editor"
   member  = "serviceAccount:${google_service_account.custom_service_account.email}"
+}
   
 resource "google_project_iam_member" "storage_admin" {
   project = var.project_id
