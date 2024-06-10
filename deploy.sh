@@ -10,6 +10,11 @@ fi
 # Initialize Terraform
 terraform init -backend=true
 
+export TF_LOG="DEBUG"
+
+#Set the Log File Path
+export TF_LOG_PATH="terraform.log"
+
 # Check if the Terraform initialization was successful
 if [ $? -ne 0 ]; then
     echo "Failed to initialize Terraform. Exiting..."
